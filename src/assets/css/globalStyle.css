@@ -1,0 +1,65 @@
+  :root{
+    --clr-dark: #070a13 ;
+    --clr-light:#f1f5f9;
+    --clr-slate400:#94a3b8;
+    --clr-slate600:#475569 ;
+    --clr-slate800:#1e293b ;
+    --clr-rose:#e11d48 ;
+    /* --clr-indigo: #4f46e5; */
+    --clr-teal:#0d9488 ;
+
+  }
+  
+  *,
+  *::after,
+  *::before {
+      box-sizing: border-box;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      line-height: calc(1em + 0.5rem);
+  }
+
+  html {
+      scroll-behavior: smooth;
+  }
+
+  body {
+      font-family: 'General Sans', sans-serif;
+      background-color: var(--clr-dark);
+      color: var(--clr-light);
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+      display: block;
+      max-width: 100%;
+      user-select: none;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+      font: inherit;
+  }
+
+  button {
+      display: inline-block;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: inherit;
+      font-family: inherit !important ; /*! error: not inherit the font*/
+  }
+  a{
+    color: var(--clr-rose);
+  }
+  strong{
+    color: var(--clr-teal);
+  }
