@@ -42,7 +42,7 @@ function AboutSection() {
         </AboutContent>
         <ProfileImageContainer>
           <ProfileImage
-            src="../../public/images/watermelon.png"
+            src="images/watermelon.png"
             alt="Profile picture"
           />
         </ProfileImageContainer>
