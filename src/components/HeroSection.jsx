@@ -17,7 +17,7 @@ function HeroSection() {
           href="https://www.linkedin.com/in/amalkhardli/"
           target="_blank"
           rel="noopener noreferrer">
-          <Profile src="../../public/images/profile.jpeg" alt="profile" />
+          <Profile src="images/profile.jpeg" alt="profile" />
         </a>
         <Subtitle>hi, i'm amal </Subtitle>
         <Title>
