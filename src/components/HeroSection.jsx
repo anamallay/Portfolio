@@ -32,7 +32,9 @@ function HeroSection() {
           solutions.
         </Description>
 
-        <HeroButton href="#resume">reach out</HeroButton>
+        <HeroButton target="_blank" as="a" href="https://github.com/anamallay">
+          githab page
+        </HeroButton>
       </Hero>
     </Container>
   );
