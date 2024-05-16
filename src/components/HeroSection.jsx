@@ -13,7 +13,10 @@ function HeroSection() {
   return (
     <Container>
       <Hero>
-        <a href="https://www.linkedin.com/in/amalkhardli/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/amalkhardli/"
+          target="_blank"
+          rel="noopener noreferrer">
           <Profile src="../../public/images/profile.jpeg" alt="profile" />
         </a>
         <Subtitle>hi, i'm amal </Subtitle>
