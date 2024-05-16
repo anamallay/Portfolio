@@ -1,4 +1,4 @@
-export const theme = {
+export const getTheme = (mode) => ({
   sizes: {
     xxs: "0.5rem",
     xs: "0.75rem",
@@ -16,16 +16,28 @@ export const theme = {
     "9xl": "8rem",
     "10xl": "10rem",
   },
-  colors: {
-    dark: "#070a13",
-    light: "#f1f5f9",
-    slate400: "#94a3b8",
-    slate600: "#475569",
-    slate800: "#1e293b",
-    rose: "#e11d48",
-    indigo: '#4f46e5',
-    teal: "#0d9488",
-  },
+  colors:
+    mode === "light"
+      ? {
+          dark: "#f1f5f9",
+          light: "#070a13",
+          slate400: "#1e293b",
+          slate600: "#1e293b",
+          slate800: "#1e293b",
+          rose: "#e11d48",
+          indigo: "#4f46e5",
+          teal: "#0d9488",
+        }
+      : {
+          dark: "#070a13",
+          light: "#f1f5f9",
+          slate400: "#94a3b8",
+          slate600: "#475569",
+          slate800: "#1e293b",
+          rose: "#e11d48",
+          indigo: "#4f46e5",
+          teal: "#0d9488",
+        },
   screenSizes: {
     xs: "475px",
     sm: "640px",
@@ -34,7 +46,8 @@ export const theme = {
     xl: "1280px",
     xxl: "1536px",
   },
-};
+});
 
 // rose: rgb(225, 29, 72)
 // teal: rgb(13, 148, 136)
+// indigo: rgb(79, 70, 229)

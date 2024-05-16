@@ -1,0 +1,142 @@
+:root {
+    --shadow: #0f1c2f;
+    --red: #FF4755;
+    --red-dark: #FC2B3A;
+    --green: #98DB7C;
+    --green-dark: #7ac65c;
+    --seed: #5B5B5B;
+}
+
+
+.watermelon-rind {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 20px auto;
+    transform: translate(-40%, -30%) rotate(-45deg);
+    background-color: var(--green-dark);
+    height: 8em;
+    width: 14em;
+    border-bottom-right-radius: 8em;
+    border-bottom-left-radius: 8em;
+    animation: move-watermelon 1s infinite ease-in-out alternate;
+    transition: filter .5s;
+}
+
+.watermelon-rind:after {
+    content: '';
+    position: relative;
+    right: 0%;
+    background-color: var(--green);
+    height: 7.5em;
+    width: 13.4em;
+    border-bottom-right-radius: 7.5em;
+    border-bottom-left-radius: 7.5em;
+}
+
+.watermelon-pulp {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -57.5%);
+    background-color: var(--red-dark);
+    height: 7em;
+    width: 11.5em;
+    border-bottom-right-radius: 7em;
+    border-bottom-left-radius: 7em;
+    z-index: 10;
+}
+
+.watermelon-pulp:after {
+    content: '';
+    position: absolute;
+    right: 0%;
+    background-color: var(--red);
+    height: 6.7em;
+    width: 10.7em;
+    border-bottom-right-radius: 6.7em;
+    border-bottom-left-radius: 6.7em;
+}
+
+.watermelon-seed {
+    position: absolute;
+    height: 1.2em;
+    width: .7em;
+    background-color: var(--seed);
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.watermelon-seed-1 {
+    top: 20%;
+    left: 25%;
+    transform: rotate(60deg);
+}
+
+.watermelon-seed-2 {
+    top: 35%;
+    left: 38%;
+    transform: rotate(30deg);
+}
+
+.watermelon-seed-3 {
+    top: 40%;
+    left: 53%;
+    transform: rotate(0deg);
+}
+
+.watermelon-seed-4 {
+    top: 35%;
+    left: 67%;
+    transform: rotate(-30deg);
+}
+
+.watermelon-seed-5 {
+    top: 20%;
+    left: 78%;
+    transform: rotate(-60deg);
+}
+
+.watermelon-shadow {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    background-color: var(--shadow);
+    height: 1.5em;
+    width: 10em;
+    border-radius: 50%;
+    animation: increase-shadow 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes move-watermelon {
+    from {
+        top: 65%;
+    }
+
+    to {
+        top: 70%;
+    }
+}
+
+@keyframes increase-shadow {
+    from {
+        width: 3.5em;
+    }
+
+    to {
+        width: 10em;
+    }
+}
+
+/* <div className="container">
+<div className="watermelon-rind">
+<div className="watermelon-pulp">
+<div className="watermelon-seed watermelon-seed-1">
+</div><div className="watermelon-seed watermelon-seed-2">
+</div><div className="watermelon-seed watermelon-seed-3">
+</div><div className="watermelon-seed watermelon-seed-4">
+</div><div className="watermelon-seed watermelon-seed-5">
+</div></div></div><div className="watermelon-shadow">
+</div>
+</div> */

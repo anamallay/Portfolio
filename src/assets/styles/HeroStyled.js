@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colors, screenSize, sizes } from "../../utils/var";
+import { PrimaryButton } from "../../utils/utils";
 
 export const Hero = styled.div`
   text-align: center;
@@ -17,6 +18,7 @@ export const Hero = styled.div`
   @media (min-width: ${screenSize("md")}) {
   }
   @media (min-width: ${screenSize("lg")}) {
+    gap: 2rem;
   }
   @media (min-width: ${screenSize("xl")}) {
   }
@@ -51,12 +53,45 @@ export const Profile = styled.img`
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
   }
+  @media (min-width: ${screenSize("xs")}) {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+    width: 8rem;
+    height: 8rem;
+  }
+  @media (min-width: ${screenSize("xl")}) {
+    width: 10rem;
+    height: 10rem;
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
 `;
 
 export const Subtitle = styled.h2`
   text-transform: capitalize;
   color: ${colors("slate800")};
   font-size: ${sizes("base")};
+  @media (min-width: ${screenSize("xs")}) {
+    font-size: ${sizes("lg")};
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+    font-size: ${sizes("2xl")};
+  }
+  @media (min-width: ${screenSize("xl")}) {
+    font-size: ${sizes("4xl")};
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
 `;
 export const Title = styled.h2`
   text-transform: uppercase;
@@ -64,9 +99,57 @@ export const Title = styled.h2`
   font-size: ${sizes("4xl")};
   letter-spacing: 0.05em;
   line-height: 0.9;
+  @media (min-width: ${screenSize("xs")}) {
+    font-size: ${sizes("5xl")};
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+    font-size: ${sizes("7xl")};
+  }
+  @media (min-width: ${screenSize("xl")}) {
+    font-size: ${sizes("9xl")};
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
 `;
 export const Description = styled.p`
   max-width: 60ch;
   font-size: ${sizes("sm")};
   color: ${colors("slate600")};
+  @media (min-width: ${screenSize("xs")}) {
+    font-size: ${sizes("base")};
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+    font-size: ${sizes("lg")};
+  }
+  @media (min-width: ${screenSize("xl")}) {
+    font-size: ${sizes("xl")};
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
+`;
+
+export const HeroButton = styled(PrimaryButton)`
+  font-size: ${sizes("sm")};
+  @media (min-width: ${screenSize("xs")}) {
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+    font-size: ${sizes("lg")};
+  }
+  @media (min-width: ${screenSize("xl")}) {
+    font-size: ${sizes("xl")};
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
 `;

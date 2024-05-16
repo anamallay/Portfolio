@@ -1,17 +1,15 @@
 import styled from "styled-components";
-import { colors, screenSize } from "./var";
-
+import { colors, screenSize, sizes } from "./var";
 
 export const PrimaryButton = styled.button`
   display: inline-block;
-  text-transform: capitalize ;
+  text-transform: capitalize;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.05rem;
-  font-size: ${(props) =>
-    props.fontSize || "1rem"}; 
+  font-size: ${(props) => props.fontSize || sizes("base")};
   background-color: ${colors("rose")};
-  color: ${colors("light")};
+  color: #f1f5f9;
   padding: 0.5em 1em;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
@@ -23,11 +21,23 @@ export const PrimaryButton = styled.button`
     box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
       0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px ${colors("rose")};
   }
+  /* mobile first */
+  @media (min-width: ${screenSize("xs")}) {
+  }
+  @media (min-width: ${screenSize("sm")}) {
+  }
+  @media (min-width: ${screenSize("md")}) {
+  }
+  @media (min-width: ${screenSize("lg")}) {
+  }
+  @media (min-width: ${screenSize("xl")}) {
+  }
+  @media (min-width: ${screenSize("xxl")}) {
+  }
 `;
 
-
 export const Container = styled.div`
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -55,4 +65,3 @@ export const Container = styled.div`
     max-width: ${screenSize("xxl")};
   }
 `;
-
