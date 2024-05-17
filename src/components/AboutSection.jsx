@@ -20,7 +20,7 @@ function AboutSection() {
           </AboutDescription>
           <AboutDescription>
             I hold a Bachelor’s degree in Computer Science and Information
-            Technology from <a>Jazan University</a> and a certificate from the
+            Technology from <a>Jazan University</a> and a certificate from the 
             <a> Saudi Digital Academy</a> x Integrify Academy Software
             Development Bootcamp. My expertise spans a wide range of
             technologies, including React, Redux, Node.js, and more.
