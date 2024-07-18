@@ -73,8 +73,8 @@ export const ProjectContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "image1 contect1"
-      "contect2 image2"
+      /* "image1 contect1"
+      "contect2 image2" */
       "image3 contect3"
       "contect4 image4"
       "image5 contect5"
