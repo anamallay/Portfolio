@@ -10,10 +10,10 @@ import {
   Project,
   ProjectContainer,
   ProjectSubTitle,
-  ProjectContect1,
-  ProjectImages1,
-  ProjectContect2,
-  ProjectImages2,
+  // ProjectContect1,
+  // ProjectImages1,
+  // ProjectContect2,
+  // ProjectImages2,
   ProjectContect3,
   ProjectImages3,
   ProjectContect4,
@@ -23,7 +23,11 @@ import {
   ProjectImages6,
   ProjectContect6,
 } from "../assets/styles/ProjectStyled";
-import { Ecommerc_Backend, Ecommerc_Frontend, Prayer_Time, Social_Media, Todo_list, Weather_App } from "../utils/data";
+import {
+  // Ecommerc_Backend,
+  // Ecommerc_Frontend,
+  Prayer_Time, Social_Media, Todo_list, Weather_App
+} from "../utils/data";
 import { Container } from "../utils/utils";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -41,7 +45,7 @@ function ProjectSection() {
         </ProjectsDescription>
         <ProjectContainer>
           {/* Project 1 */}
-          <ProjectTitle>Ecommerc Frontend</ProjectTitle>
+          {/* <ProjectTitle>Ecommerc Frontend</ProjectTitle>
           <ProjectImages1>
             <ProjectImgWrapper>
               <LazyLoadImage
@@ -70,9 +74,9 @@ function ProjectSection() {
                 Website
               </ProjectButton>
             </Project>
-          </ProjectContect1>
+          </ProjectContect1> */}
           {/* Project 2 */}
-          <ProjectTitle>Ecommerc Backend</ProjectTitle>
+          {/* <ProjectTitle>Ecommerc Backend</ProjectTitle>
           <ProjectImages2>
             <ProjectImgWrapper>
               <LazyLoadImage
@@ -101,7 +105,7 @@ function ProjectSection() {
                 Website
               </ProjectButton>
             </Project>
-          </ProjectContect2>
+          </ProjectContect2> */}
           {/* Project 3 */}
           <ProjectTitle>Weather App</ProjectTitle>
           <ProjectImages3>

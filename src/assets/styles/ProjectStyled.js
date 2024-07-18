@@ -252,18 +252,18 @@ export const ProjectButton = styled(PrimaryButton)`
   }
 `;
 // --- grid areas
-export const ProjectContect1 = styled.div`
-  grid-area: "content1";
-`;
-export const ProjectImages1 = styled.div`
-  grid-area: image1;
-`;
-export const ProjectContect2 = styled.div`
-  grid-area: "content2";
-`;
-export const ProjectImages2 = styled.div`
-  grid-area: image2;
-`;
+// export const ProjectContect1 = styled.div`
+//   grid-area: "content1";
+// `;
+// export const ProjectImages1 = styled.div`
+//   grid-area: image1;
+// `;
+// export const ProjectContect2 = styled.div`
+//   grid-area: "content2";
+// `;
+// export const ProjectImages2 = styled.div`
+//   grid-area: image2;
+// `;
 export const ProjectContect3 = styled.div`
   grid-area: "content3";
 `;
