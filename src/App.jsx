@@ -29,10 +29,12 @@ function App() {
       <Element name="about">
         <AboutSection id="about" />
       </Element>
+      
       {/* <FeaturedSection /> */}
       {/* <Element name="project"> */}
         {/* <ProjectSection /> */}
       {/* </Element> */}
+
       <Element name="contact">
         <ContactSection />
       </Element>
