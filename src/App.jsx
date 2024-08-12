@@ -4,7 +4,7 @@ import HeaderSection from "./components/HeaderSection";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 // import FeaturedSection from "./components/FeaturedSection";
-import ProjectSection from "./components/ProjectSection";
+// import ProjectSection from "./components/ProjectSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
 import { Element } from "react-scroll";
@@ -30,9 +30,9 @@ function App() {
         <AboutSection id="about" />
       </Element>
       {/* <FeaturedSection /> */}
-      <Element name="project">
-        <ProjectSection />
-      </Element>
+      {/* <Element name="project"> */}
+        {/* <ProjectSection /> */}
+      {/* </Element> */}
       <Element name="contact">
         <ContactSection />
       </Element>

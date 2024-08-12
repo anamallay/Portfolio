@@ -52,11 +52,11 @@ function HeaderSection({ toggleTheme }) {
                 <NavigationLink onClick={closeMenu}>About</NavigationLink>
               </li>
             </ScrollLink>
-            <ScrollLink to="project" smooth={true} duration={500}>
+            {/* <ScrollLink to="project" smooth={true} duration={500}>
               <li>
                 <NavigationLink onClick={closeMenu}>Project</NavigationLink>
               </li>
-            </ScrollLink>
+            </ScrollLink> */}
             <ScrollLink to="contact" smooth={true} duration={500}>
               <li>
                 <NavigationLink onClick={closeMenu}>Contact</NavigationLink>
