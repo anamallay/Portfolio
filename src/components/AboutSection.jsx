@@ -1,6 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { About, AboutContent, AboutDescription, AboutLine, AboutSubTitle, AboutTitle, ProfileImage, ProfileImageContainer, TechItem, TechList, TechologiesList } from "../assets/styles/AboutStyled";
+import {
+  About,
+  AboutContent,
+  AboutDescription,
+  AboutLine,
+  AboutSubTitle,
+  AboutTitle,
+  ProfileImage,
+  ProfileImageContainer,
+  TechItem,
+  TechList,
+  TechologiesList,
+} from "../assets/styles/AboutStyled";
 import { Container } from "../utils/utils";
 import "../assets/css/watermelon.css";
 
@@ -20,7 +32,7 @@ function AboutSection() {
           </AboutDescription>
           <AboutDescription>
             I hold a Bachelor’s degree in Computer Science and Information
-            Technology from <a>Jazan University</a> and a certificate from the 
+            Technology from <a>Jazan University</a> and a certificate from the
             <a> Saudi Digital Academy</a> x Integrify Academy Software
             Development Bootcamp. My expertise spans a wide range of
             technologies, including React, Redux, Node.js, and more.
@@ -35,16 +47,13 @@ function AboutSection() {
             </TechList>
             <TechList>
               <TechItem>ReactJS</TechItem>
-              <TechItem>NextJS</TechItem>
+              {/* <TechItem>NextJS</TechItem> */}
               <TechItem>NodeJS</TechItem>
             </TechList>
           </TechologiesList>
         </AboutContent>
         <ProfileImageContainer>
-          <ProfileImage
-            src="images/watermelon.png"
-            alt="Profile picture"
-          />
+          <ProfileImage src="images/watermelon.png" alt="Profile picture" />
         </ProfileImageContainer>
       </About>
     </Container>
