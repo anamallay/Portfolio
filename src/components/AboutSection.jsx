@@ -53,7 +53,7 @@ function AboutSection() {
           </TechologiesList>
         </AboutContent>
         <ProfileImageContainer>
-          <ProfileImage src="images/watermelon.png" alt="Profile picture" />
+          <ProfileImage src="images/pic.jpg" alt="Profile picture" />
         </ProfileImageContainer>
       </About>
     </Container>

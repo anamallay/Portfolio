@@ -200,10 +200,10 @@ export const ProfileImageContainer = styled.div`
   }
 `;
 export const ProfileImage = styled.img`
-  opacity: 0.09;
+  opacity: 0.5;
   transition: opacity 0.3s ease-in-out;
   &:hover {
-    opacity: 0.2;
+    opacity: 1;
   }
 
   @media (min-width: ${screenSize("xs")}) {
