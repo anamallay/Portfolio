@@ -2,7 +2,7 @@ import "./assets/css/modernNormalize.css";
 import HeaderSection from "./components/HeaderSection";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
-import FeaturedSection from "./components/FeaturedSection_2";
+import FeaturedSection from "./components/FeaturedSection";
 // import ProjectSection from "./components/ProjectSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
@@ -27,8 +27,9 @@ function App() {
       <Element name="about">
         <AboutSection id="about" />
       </Element>
-
-      <FeaturedSection />
+      <Element name="feature">
+        <FeaturedSection />
+      </Element>
       {/* <Element name="project"> */}
       {/* <ProjectSection /> */}
       {/* </Element> */}

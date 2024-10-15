@@ -17,7 +17,7 @@ import { Container } from "../utils/utils";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-function FeaturedSection_2() {
+function FeaturedSection() {
   return (
     <Container>
       <Featured>
@@ -204,4 +204,4 @@ function FeaturedSection_2() {
   );
 }
 
-export default FeaturedSection_2;
+export default FeaturedSection;

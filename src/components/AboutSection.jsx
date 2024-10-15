@@ -42,13 +42,13 @@ function AboutSection() {
           <TechologiesList>
             <TechList>
               <TechItem>JavaScript (ES6+)</TechItem>
-              <TechItem>CSS</TechItem>
-              <TechItem>HTML</TechItem>
+              <TechItem>TypeScript</TechItem>
+              <TechItem>ReactJS</TechItem>
             </TechList>
             <TechList>
-              <TechItem>ReactJS</TechItem>
-              {/* <TechItem>NextJS</TechItem> */}
+              <TechItem>Express</TechItem>
               <TechItem>NodeJS</TechItem>
+              <TechItem>REST API</TechItem>
             </TechList>
           </TechologiesList>
         </AboutContent>
