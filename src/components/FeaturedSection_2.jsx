@@ -15,22 +15,23 @@ import {
 } from "../assets/styles/FeaturedStyled";
 import { Container } from "../utils/utils";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import "react-lazy-load-image-component/src/effects/blur.css";
 
-function FeaturedSection() {
+function FeaturedSection_2() {
   return (
     <Container>
       <Featured>
         <FeaturedSubTitle>featured project</FeaturedSubTitle>
         <FeaturedWrapper>
-          <FeaturedTitle>ecommerce project</FeaturedTitle>
-          <FeaturedLink href="#">
+          <FeaturedTitle>Full Stack Digital Tests</FeaturedTitle>
+          <FeaturedLink href="https://www.digitaltests.org/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              stroke="currentColor">
+              stroke="currentColor"
+            >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -40,30 +41,34 @@ function FeaturedSection() {
           </FeaturedLink>
         </FeaturedWrapper>
         <FeaturedDescription>
-          A complete ecommerce platform built with React, Redux, and TypeScript,
-          featuring management systems for users, categories, products, and
-          orders for a full retail experience.
+          A complete quiz platform built with React, Redux, and TypeScript,
+          allowing users to create, share, and take quizzes. It includes user
+          authentication, quiz management, result tracking, and multi-language
+          support for an engaging test-taking experience.
         </FeaturedDescription>
         <FeaturedInfoContainer>
           <FeaturedInfoSection>
             <FeaturedLabel>Tech stack</FeaturedLabel>
             <FeaturedTechStack>
+              <FeaturedInfo>ReactJS (with TypeScript)</FeaturedInfo>
               <FeaturedInfo>TailwindCSS</FeaturedInfo>
-              <FeaturedInfo>ReactJS</FeaturedInfo>
-              <FeaturedInfo>React-Hook-Form</FeaturedInfo>
-              <FeaturedInfo>NextJS</FeaturedInfo>
-              <FeaturedInfo>Axios</FeaturedInfo>
-              <FeaturedInfo>Supabase</FeaturedInfo>
-              <FeaturedInfo>Stripe</FeaturedInfo>
+              <FeaturedInfo>Redux Toolkit</FeaturedInfo>
+              <FeaturedInfo>Express.js</FeaturedInfo>
+              <FeaturedInfo>Node.js</FeaturedInfo>
+              <FeaturedInfo>MongoDB (with Mongoose)</FeaturedInfo>
+              <FeaturedInfo>JWT Authentication</FeaturedInfo>
+              <FeaturedInfo>i18next</FeaturedInfo>
             </FeaturedTechStack>
           </FeaturedInfoSection>
           <FeaturedInfoSection>
             <FeaturedLabel>Project Type</FeaturedLabel>
-            <FeaturedInfo as="p">Fullstack-MERN</FeaturedInfo>
+            <FeaturedInfo as="p">
+              MERN (MongoDB, Express.js, React, Node.js)
+            </FeaturedInfo>
           </FeaturedInfoSection>
           <FeaturedInfoSection>
             <FeaturedLabel>Timeline</FeaturedLabel>
-            <FeaturedInfo as="p">December 2022 - Present</FeaturedInfo>
+            <FeaturedInfo as="p">October 2024 - Present</FeaturedInfo>
           </FeaturedInfoSection>
         </FeaturedInfoContainer>
         <FeaturedImgContainer>
@@ -72,7 +77,7 @@ function FeaturedSection() {
               alt="pic1"
               height={"100%"}
               effect="blur"
-              src="./images/one.png"
+              src="./images/feature2/home.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -81,7 +86,16 @@ function FeaturedSection() {
               alt="pic2"
               height={"100%"}
               effect="blur"
-              src="./images/two.png"
+              src="./images/feature2/publice_quiz.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic2"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/profile.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -90,7 +104,7 @@ function FeaturedSection() {
               alt="pic3"
               height={"100%"}
               effect="blur"
-              src="./images/three.png"
+              src="./images/feature2/create_quiz.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -99,7 +113,7 @@ function FeaturedSection() {
               alt="pic4"
               height={"100%"}
               effect="blur"
-              src="./images/four.png"
+              src="./images/feature2/add_question.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -108,7 +122,7 @@ function FeaturedSection() {
               alt="pic5"
               height={"100%"}
               effect="blur"
-              src="./images/five.png"
+              src="./images/feature2/add_other_question.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -117,7 +131,7 @@ function FeaturedSection() {
               alt="pic6"
               height={"100%"}
               effect="blur"
-              src="./images/six.png"
+              src="./images/feature2/score.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -126,25 +140,7 @@ function FeaturedSection() {
               alt="pic7"
               height={"100%"}
               effect="blur"
-              src="./images/seven.png"
-              placeholderSrc="https://example.com/placeholder.jpg"
-            />
-          </FeaturedImgWrapper>
-          <FeaturedImgWrapper>
-            <LazyLoadImage
-              alt="pic8"
-              height={"100%"}
-              effect="blur"
-              src="./images/eight.png"
-              placeholderSrc="https://example.com/placeholder.jpg"
-            />
-          </FeaturedImgWrapper>
-          <FeaturedImgWrapper>
-            <LazyLoadImage
-              alt="pic9"
-              height={"100%"}
-              effect="blur"
-              src="./images/nine.png"
+              src="./images/feature2/library.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -153,7 +149,52 @@ function FeaturedSection() {
               alt="pic10"
               height={"100%"}
               effect="blur"
-              src="./images/ten.png"
+              src="./images/feature2/start_quiz.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic10"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/quiz_process.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic10"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/show_score.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic10"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/login.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic8"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/register.png"
+              placeholderSrc="https://example.com/placeholder.jpg"
+            />
+          </FeaturedImgWrapper>
+          <FeaturedImgWrapper>
+            <LazyLoadImage
+              alt="pic9"
+              height={"100%"}
+              effect="blur"
+              src="./images/feature2/forget_password.png"
               placeholderSrc="https://example.com/placeholder.jpg"
             />
           </FeaturedImgWrapper>
@@ -163,4 +204,4 @@ function FeaturedSection() {
   );
 }
 
-export default FeaturedSection;
+export default FeaturedSection_2;
