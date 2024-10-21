@@ -153,19 +153,11 @@ export const TechList = styled.ul`
   }
 `;
 export const TechItem = styled.li`
+  display: flex;
+  align-items: center;
   font-size: ${sizes("sm")};
   color: ${colors("slate600")};
-  &::before {
-    content: "";
-    background-image: url("./images/watermelon.png");
-    background-size: 20px 20px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 0.5rem;
-    margin-left: -1.5rem;
-    background-repeat: no-repeat;
-  }
+
   @media (min-width: ${screenSize("xs")}) {
     font-size: ${sizes("base")};
   }
